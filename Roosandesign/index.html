@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Asetukset</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="phone-frame">
+    <header>Asetukset</header>
+
+    <main>
+      <section>
+        <h2>Ilmoitukset</h2>
+
+        <div class="card">
+          <div class="card-text">
+            <strong>Muistutukset taukojumpasta</strong>
+            <span class="status">Päällä</span>
+          </div>
+          <div class="toggle on"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-text">
+            <strong>Tietoiskut istumisesta</strong>
+            <span class="status">Päällä</span>
+          </div>
+          <div class="toggle on"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-text">
+            <strong>Tiimihaasteet</strong>
+            <span class="status">Päällä</span>
+          </div>
+          <div class="toggle on"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Tavoitteet</h2>
+
+        <div class="goal-card">
+          <div class="goal-header">
+            <strong>Millainen olosi on tänään?</strong>
+            <p>Sovellus arvioi taitotasosi ja sinulle sopivan jumppamäärän automaattisesti tietojesi perusteella. Päivitä tietojasi tästä.</p>
+          </div>
+          <button class="update-btn">
+            <span class="material-symbols-outlined">wand_stars</span>
+            Päivitä
+          </button>
+        </div>
+
+        <div class="goal-card small">
+          <div class="goal-header">
+            <strong>Viikkotavoitteesi</strong>
+            <p>5 päivää viikossa, 4 jumppaa päivässä</p>
+          </div>
+          <span class="material-symbols-outlined">expand_more</span>
+        </div>
+      </section>
+    </main>
+
+    <nav>
+      <div class="nav-item">
+        <span class="material-symbols-outlined">cottage</span>
+        <span>Etusivu</span>
+      </div>
+
+      <div class="nav-item">
+        <span class="material-symbols-outlined">video_library</span>
+        <span>Jumpat</span>
+      </div>
+
+      <div class="nav-item">
+        <span class="material-symbols-outlined">add_circle</span>
+        <span>Luo jumppa</span>
+      </div>
+
+      <div class="nav-item">
+        <span class="material-symbols-outlined">account_circle</span>
+        <span>Minä</span>
+      </div>
+
+      <div class="nav-item active">
+        <span class="material-symbols-outlined">menu</span>
+        <span>Valikko</span>
+      </div>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
